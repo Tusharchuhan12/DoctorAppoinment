@@ -1,6 +1,6 @@
 import React from 'react'
 import Heder from '../compontes/Heder'
-import SpecialityMenu from '../compontes/specialityMenu'
+import Drmenu from '../compontes/Drmenu'
 import TopDoctor from '../compontes/TopDoctor'
 import Banner from '../compontes/Banner'
 import Consultation from '../compontes/Consultation'
@@ -10,7 +10,7 @@ function Home() {
   return (
     <div>
       <Heder></Heder>
-      <SpecialityMenu></SpecialityMenu>
+      <Drmenu></Drmenu>
       <TopDoctor></TopDoctor>
       <Banner></Banner>
       <BenifitOline></BenifitOline>

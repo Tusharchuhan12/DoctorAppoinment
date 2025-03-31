@@ -2,7 +2,7 @@ import React from 'react'
 
 
 import { Link, useNavigate } from 'react-router-dom'
-function SpecialityMenu() {
+function Drmenu() {
 
  const Navigate=useNavigate();
 
@@ -72,4 +72,4 @@ function SpecialityMenu() {
   
 
 
-export default SpecialityMenu
+export default Drmenu
