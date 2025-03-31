@@ -164,18 +164,19 @@ function Navbar() {
               <li>Home</li>
             </NavLink>
 
+            
             <NavLink
-              to='/doctor'
+              to='/doctors'  // Changed from '/doctor' to '/doctors'
               className={({ isActive }) =>
                 `py-3 px-2 transition-colors ${isActive
                   ? 'text-blue-600 bg-blue-50'
-                  : 'text-gray-600 hover:bg-gray-100'}`
+                  : 'text-gray-600 hover:bg-gray-100'
+                }`
               }
               onClick={() => setMobileMenuOpen(false)}
             >
               <li>All Doctors</li>
             </NavLink>
-
             <NavLink
               to='/about'
               className={({ isActive }) =>
