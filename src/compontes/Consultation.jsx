@@ -66,7 +66,7 @@ const Consultation = () => {
                             </button>
                         </div>
                         <div className="md:w-1/2 bg-gray-900">
-                            {/* YouTube Video Embed - Corrected */}
+                            {/* Y */}
                             <div className="aspect-w-16 aspect-h-9 w-full">
                                 <iframe
                                     className="w-full h-full min-h-[420px]"
