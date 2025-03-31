@@ -6,7 +6,7 @@ function Navbar() {
   const navigate = useNavigate();
   const [showDropdown, setShowDropdown] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [token, setToken] = useState(true); // In a real app, this would come from auth context
+  const [token, setToken] = useState(true); 
   const dropdownRef = useRef(null);
 
   // Close dropdown when clicking outside
